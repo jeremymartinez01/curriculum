@@ -10,14 +10,14 @@
 <h1>Curriculum Vitae</h1>
 </header>
 <main>
-<section>
+<section id="personalinformation">
 <h2>Personal Information</h2>
 <p>Name: Jeremy Martinez</p>
 <p>Email: jjmartin@espol.edu.ec</p>
 <p>Phone: +593 98 720 4288
 <hr>
 </section>
-<section>
+<section id="education">
 <h2>Education</h2>
 <p>Escuela Superior Politecnica del Litoral, Guayaquil</p>
 <p>Currently attending for a bachelor in computer science engineering</p>
@@ -29,12 +29,99 @@
 <p>None</p>
 <hr>
 </section>
-<section>
+<section id="skills">
 <h2>Skills</h2>
 <p>Programming Languages: Java, Python, C, C++</p>
 <p>Operating Systems: Linux, Windows, macOS</p>
 <p>Databases: MySQL</p>
 <hr>
+</section>
+<div id="suggestions">
+    <h2>Suggestions</h2>
+    <p>Any suggestions are welcome</p>
+    <form id="formulario">
+        <label for="nombrescompletos">Nombres completos:</label> 
+        <input type="text" id="nombrescompletos" name="nombrescompletos" required="required" />
+        <br>
+        <label for="correoelectronico">Correo electrónico:</label> 
+        <input type="email" id="correoelectronico" name="correoelectronico" required="required"/>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
+        <br>
+        <button type="submit" name="enviar">Enviar</button>
+    </form>
+</div>
+<section>
+    <br>
+    <h2> 
+        <span style="color:red;font-weight:bold">
+        HOBBIES
+        </span>
+    </h2> 
+    <p>
+        <span style="color:blue;font-weight:bold">
+        Ping-pong
+        </span>
+    </p>
+    <img src="images/image1.JPG" width="300" height="250">
+    <br>
+    <table border="2" >
+        <caption>Puntos del partido</caption>
+        <tr>
+            <th>SET</th>
+            <th>First</th>
+            <th>Second</th>
+        </tr>
+        <tr>
+            <th>Jeremy Martinez</th>
+            <td>11</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <th>Juan Demera</th>
+            <td>9</td>
+            <td>11</td>
+        </tr>
+    </table>
+</section>
+<section>
+    <br>
+    <h2>Sections</h2>
+    <ul>
+        <li>
+            <a href="#personalinformation">Personal Information</a>
+        </li>
+        <li>
+            <a href="#education">Education</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#suggestions">Suggestions</a>
+        </li>
+    </ul>
+</section>
+<section>
+    <h2>Universidad</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015179384249!2d-79.96944032323505!3d-2.1478748315615888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1684784569456!5m2!1ses!2sec" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section>
+    <h2>Streamers favoritos</h2>
+    <ol>
+        <li> Aceu </li>
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/83PBBcQgCiI" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <li>IitzTimmy</li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DGzshIs0ZAM" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+
+    </ol>
 </section>
 </main>
 <footer>
