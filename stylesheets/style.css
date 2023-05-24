@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Mada&family=Squada+One&display=swap');
+*{
+    font-family: 'Squada One' , cursive;
+}
+body{
+    background-color: #fef6e4;
+    font-family: 'Heebo' , sans-serif;
+
+}
+#titulosh2{
+    color: cyan;
+    font-family: 'Mada', sans-serif;
+}
+p{
+    font-family: 'Heebo' , sans-serif;
+}
+#titulostabla{
+    font-family: 'Heebo' , sans-serif;
+}
+#contenidotabla{
+    font-family: 'Heebo' , sans-serif;
+}
