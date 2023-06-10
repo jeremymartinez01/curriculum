@@ -6,7 +6,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#curriculum{
+header{
     text-align: center;
 }
 #personalinformation{
@@ -26,13 +26,24 @@ main{
     text-align: center;
 }
 #suggestions{
-    width: 33%;
+    width: 49%;
+    text-align: center;
+}
+#hobbies{
+    width: 35%;
+    text-align: center;
 }
 #streamers{
     width: 50%;
+    text-align: center;
 }
 #sections{
-    width: 33%;
+    width: 100%;
+    text-align: center;
+}
+#universidad{
+    width: 40%;
+    text-align: center;
 }
 *{
     font-family: 'Squada One' , cursive;
@@ -54,4 +65,7 @@ p{
 }
 #contenidotabla{
     font-family: 'Heebo' , sans-serif;
+}
+img{
+    border-radius: 30px;
 }
